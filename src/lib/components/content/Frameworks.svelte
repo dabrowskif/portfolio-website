@@ -29,7 +29,7 @@
 	const sectionClass = 'grid grid-cols-2 lg:grid-cols-4 gap-10 my-10';
 </script>
 
-<Container id="#frameworks">
+<Container id="frameworks">
 	<h2 class="h1 text-center mb-10">my techstac<span class="text-primary-500">k</span></h2>
 	<h3 class="h3 text-center underline decoration-primary-500">languages</h3>
 	<p class="text-center">i know, node is a runtime...</p>

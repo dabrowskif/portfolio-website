@@ -12,7 +12,7 @@
 		</header>
 		<section class="p-2"></section>
 		<footer class="card-footer flex justify-center">
-			<img src={icon} alt="Framework Icon" class="h-12" />
+			<img src={icon} alt="{frameworkName} Icon" class="h-12" />
 		</footer>
 	</div>
 </div>

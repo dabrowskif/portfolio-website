@@ -17,18 +17,33 @@
 			<div class="flex items-center gap-5">
 				<div>
 					{#if npmLink}
-						<a href={npmLink} target="_blank">
+						<a
+							href={npmLink}
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label={`View ${name} on NPM`}
+						>
 							<img src="/npm.svg" alt="NPM Icon" class="h-6 sm:h-10 mt-2" />
 						</a>
 					{:else if websiteLink}
-						<a href={websiteLink} target="_blank">
+						<a
+							href={websiteLink}
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label={`Visit ${name} website`}
+						>
 							<EyeIcon class="text-4xl sm:text-6xl" />
 						</a>
 					{/if}
 				</div>
 				<div>
 					{#if githubLink}
-						<a href={githubLink} target="_blank">
+						<a
+							href={githubLink}
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label={`View ${name} on GitHub`}
+						>
 							<img src="/github.png" alt="Github Icon" class="h-8 sm:h-12" />
 						</a>
 					{/if}

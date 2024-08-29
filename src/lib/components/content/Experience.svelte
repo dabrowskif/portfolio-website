@@ -3,7 +3,7 @@
 	import ExperienceCard from './ExperienceCard.svelte';
 </script>
 
-<Container id="#experience">
+<Container id="experience">
 	<h2 class="h1 text-center mb-5">
 		experienc<span class="text-primary-500">e</span>
 	</h2>

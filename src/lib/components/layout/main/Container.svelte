@@ -3,7 +3,7 @@
 </script>
 
 {#if id}
-	<div {id} class="max-w-2xl mx-auto">
+	<div {id} class="max-w-2xl mx-auto scroll-margin">
 		<slot />
 	</div>
 {:else}

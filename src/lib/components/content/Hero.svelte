@@ -2,7 +2,7 @@
 	import { DotLottieSvelte } from '@lottiefiles/dotlottie-svelte';
 </script>
 
-<div id="#hero" class="grid grid-cols-6 lg:gap-10 w-full items-center">
+<div id="hero" class="grid grid-cols-6 lg:gap-10 w-full items-center scroll-margin">
 	<div class="hidden lg:block lg:col-span-1" />
 	<div class="col-span-6 md:col-span-4 md:col-start-2 lg:col-span-2 order-1 lg:order-0">
 		<h1 class="text-3xl md:text-5xl lg:text-7xl">

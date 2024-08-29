@@ -7,11 +7,11 @@
 
 <div class="col-span-1">
 	<div class="card card-hover variant-ghost-primary">
-		<header class="card-header flex justify-between">
+		<header class="card-header flex flex-col sm:flex-row justify-between">
 			<h3 class="h4 text-primary-500">
 				{company}
 			</h3>
-			<p class="h4">{fromYear} - {toYear}</p>
+			<p class="h-6 md:h4">{fromYear} - {toYear}</p>
 		</header>
 		<section class="p-1"></section>
 		<footer class="card-footer">
