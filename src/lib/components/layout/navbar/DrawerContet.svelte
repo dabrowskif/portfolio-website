@@ -36,16 +36,16 @@
 			</li>
 			<li>
 				<a
-					href="#projects"
+					href="#frameworks"
 					class="text-2xl font-semibold hover:underline"
-					on:click={() => drawerStore.close()}>projects</a
+					on:click={() => drawerStore.close()}>tech stack</a
 				>
 			</li>
 			<li>
 				<a
-					href="#frameworks"
+					href="#projects"
 					class="text-2xl font-semibold hover:underline"
-					on:click={() => drawerStore.close()}>tech stack</a
+					on:click={() => drawerStore.close()}>projects</a
 				>
 			</li>
 			<li>

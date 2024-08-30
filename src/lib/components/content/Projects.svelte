@@ -11,7 +11,7 @@
 
 	<div class="flex flex-col gap-5 mt-10">
 		<ProjectCard
-			name="pyped routes"
+			name="typed routes"
 			description="library enabling type-safe, file-based routing for Meta frameworks like SvelteKit or Next.js. It traverses the file tree and generates a typed object with correct segments specific to the chosen framework."
 			githubLink="https://github.com/dabrowskif/typed-routes"
 			npmLink="https://www.npmjs.com/package/@dabrowskif/typed-routes"

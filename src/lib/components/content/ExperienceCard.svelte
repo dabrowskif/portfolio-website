@@ -11,7 +11,7 @@
 			<h3 class="h4 text-primary-500">
 				{company}
 			</h3>
-			<p class="h-6 md:h4">{fromYear} - {toYear}</p>
+			<p class="h-6 md:h4 underline decoration-primary-500">{fromYear} - {toYear}</p>
 		</header>
 		<section class="p-1"></section>
 		<footer class="card-footer">

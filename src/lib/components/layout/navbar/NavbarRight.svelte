@@ -5,11 +5,10 @@
 	import { getDrawerStore } from '@skeletonlabs/skeleton';
 
 	const drawerSettings: DrawerSettings = {
-		id: 'example-3',
 		bgDrawer: 'variant-filled-surface border border-primary-500',
-		bgBackdrop: 'bg-gradient-to-tr from-primary-400/20 via-primary-600/20 to-primary-900/20',
+		bgBackdrop: 'bg-gradient-to-b from-black/90 to-primary-900/20',
 		width: 'w-full',
-		height: 'h-2/3',
+		height: 'h-full sm:h-[500px]',
 		padding: 'p-4',
 		rounded: 'rounded-xl'
 	};
